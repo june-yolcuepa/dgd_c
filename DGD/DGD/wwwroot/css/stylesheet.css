@@ -1,0 +1,114 @@
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
+h1{
+  font-family: 'Hahmlet', serif;
+}
+th{
+  font-family: 'Hahmlet', serif;
+  font-weight: normal;
+}
+td{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+/* Navbar */
+.banner{
+  background-color: #22577E;
+  padding: 0 7%;
+}
+
+.navbar{
+  padding-left: 0px;
+}
+
+.navbar-brand{
+  font-family: 'Hahmlet', serif;
+  color: #F6F2D4;
+  font-size: 3rem;
+}
+
+/* ImageCarousel */
+.imageCarousel{
+ overflow: auto;
+ white-space: nowrap;
+}
+.imageFeature{
+  height: 200px;
+  padding: 1% 0.5%;
+}
+
+/* Genre Buttons and Cards*/
+
+.genreLink{
+  padding: 0px;
+  color: #22577E;
+}
+.genreLink:hover{
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.btn-outline-info{
+  padding: 0 3%;
+  margin-bottom:1%;
+  font-size: 1.5rem;
+}
+
+.cardDeck{
+  font-size:1.5rem;
+}
+
+.cardSubTable{
+  margin:5%;
+
+}
+
+/* Publisher Table */
+
+.table{
+  border-top-style: hidden;
+}
+
+.tableHeaderCol1{
+font-size: 3rem;
+padding-left: 0px;
+}
+
+.tableHeaderCol2{
+text-align: center;
+}
+
+
+/* Containers */
+.container-fluid{
+  padding: 2% 7%;
+}
+
+/* Sections */
+.footer{
+  font-size: 0.8rem;
+}
+
+.sectionPrimaryColor{
+  background-color: #22577E;
+  color: white;
+}
+
+.sectionSecondaryColor{
+    background-color: #5584AC;
+    color: white;
+  }
+
+.sectionHighlightA{
+    background-color: #95D1CC;
+    color: black;
+  }
+
+.sectionHighlightB{
+    background-color: #F6F2D4;
+    color: black;
+  }

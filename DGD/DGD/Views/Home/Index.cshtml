@@ -2,7 +2,235 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head >
+  <meta charset="utf-8">
+  <title>Dodeca Games</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Hahmlet|Raleway" rel="stylesheet">
+
+  <!-- Bootstrap CSS, Js, Popper CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="~/css/stylesheet.css" runat="server" />
+
+
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+  <div class="banner">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="index.html">DODECA games</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="library.html">Library</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Library/Publishers/publishers.html">Publishers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Library/Articles/articles.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="information.html">Info</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Call to Action: Search-->
+  <div Class="container-fluid sectionSecondaryColor">
+    <h1><em>
+
+        Adventure Starts Here
+      </em>
+    </h1>
+    <h4>
+      Borrow or buy from currated board games.
+    </h4>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Board Game Library" aria-label="Search">
+      <button class="btn btn-warning" type="submit">Search</button>
+    </form>
+  </div>
+
+
+  <!-- Genre Quick Pick -->
+  <div Class="container-fluid">
+    <a class="nav-link genreLink" href="#genredescriptions">
+      know your Genres
+    </a>
+    <button type="button" class="btn btn-outline-info">♟️ Abstract</button>
+    <button type="button" class="btn btn-outline-info">🏆 Cooperative</button>
+    <button type="button" class="btn btn-outline-info">🏬 Management</button>
+    <button type="button" class="btn btn-outline-info">⚔️ Conquest</button>
+    <button type="button" class="btn btn-outline-info">🧠 STEM</button>
+    <button type="button" class="btn btn-outline-info">🔎 Deduction</button>
+    <button type="button" class="btn btn-outline-info">🧩 Art Puzzle</button>
+    <button type="button" class="btn btn-outline-info">🎯 Dexterity</button>
+    <button type="button" class="btn btn-outline-info">🎲 Luck</button>
+    <button type="button" class="btn btn-outline-info">🚗 Race</button>
+    <button type="button" class="btn btn-outline-info">✏️ Play & Write</button>
+    <button type="button" class="btn btn-outline-info">❓ Trivia</button>
+    <button type="button" class="btn btn-outline-info">🤣 Humor</button>
+    <button type="button" class="btn btn-outline-info">💬 Communication</button>
+
+  </div>
+
+  <!-- Featured Item Cards- Horizontal Scroll -->
+  <div Class="container-fluid sectionHighlightB">
+
+    <h2>
+      Woowwie! A snappy title about games!
+    </h2>
+    <div class="imageCarousel">
+
+
+      <img src="https://cf.geekdo-images.com/xXXGSdY52lm_CjMibn0aWQ__imagepage/img/3kVM3hGirOtqfZy94lbxWI21LX8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4775121.jpg" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/LvBG5jXW8ZFyllrbyJme-A__imagepage/img/muAArjKeLjMBnY985mWThUOCVf0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3683059.png" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/83b12oXwbrUmQQg0CrPuzg__imagepage/img/X2TUh7O18s5nB6b52gdgrWD4cu8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2385041.jpg" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/Ehx72XRdSeQHISVXcZVnHg__imagepage/img/7wwISG7kfg1a-dIi07n6n9fAK2Y=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2453926.jpg" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/0bx-c6v-_YoUZPem_5DnFg__imagepage/img/YQS47gNfTNX9RUN8dsFuuJKmAvQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4864389.png" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/aSmAfOlsFg4vyjCLKK-57w__imagepage/img/mxlHNwtpVWYLdRjqkbBUtof0qMc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic920494.jpg" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/-RAQw4eCx3i__6ctz6-N9A__imagepage/img/-1cAdTS00HQsI-su8SVx0Wnp0Rw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4994220.jpg" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/DCVRR-zA7Jy9wjuZudTZ8w__imagepage/img/mEGL3f6I6kDbNhL1hb9VAqgWMig=/fit-in/900x600/filters:no_upscale():strip_icc()/pic714398.jpg" alt="Featured Board Game" class="imageFeature">
+      <img src="https://cf.geekdo-images.com/HTdnmBGtjaS2hgn9IEta9g__imagepage/img/WfWiigjds9EVVWr-GjaJKTy8_Pk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2515532.jpg" alt="Featured Board Game" class="imageFeature">
+
+
+    </div>
+  </div>
+
+
+
+  <!-- Articles -->
+  <div Class="container-fluid sectionSecondaryColor">
+    <h2>
+      Sample Articles
+    </h2>
+  </div>
+
+  <!-- Genre Descriptions -->
+  <section id="genredescriptions">
+    <div class="container-fluid sectionHighlightB">
+
+      <div class="cardDeck">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><button type="button" class="btn btn-outline-info">♟️ Abstract</button></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                <div class="row container-fluid">
+                  <p class="col cardSubTable">
+                    example text
+                  </p>
+                  <p class="col cardSubTable">
+                    example text
+                  </p>
+                </div>
+                <div class="row container-fluid">
+                  <p class="col cardSubTable">
+                    example text
+                  </p>
+                  <p class="col cardSubTable">
+                    example text
+                  </p>
+                </div>
+
+
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><button type="button" class="btn btn-outline-info">♟️ Abstract</button></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                </ul>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                </ul>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Second Call to Action: Search-->
+  <div Class="container-fluid sectionSecondaryColor">
+    <h1>
+      Begin your quest
+    </h1>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Board Game Library" aria-label="Search">
+      <button class="btn btn-warning" type="submit">Search Library</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid sectionHighlightA footer">
+    <p>
+      Dodega Games ©️ 2022 Dodeca Game Den LLC. All rights reserved.
+    </p>
+    <p>
+      Trademarks, logos, and artworks are trademarks of their respective owners and are not affiliated with Dodeca Game Den, LLC.
+    </p>
+  </div>
+
+</body>
+
+</html>
