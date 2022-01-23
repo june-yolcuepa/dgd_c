@@ -15,12 +15,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\June\Desktop\src\Coding\Contracts\dgd_c#\DGD\DGD
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Games/PerCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcUGVyQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Games/PerGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcUGVyR2FtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Home/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Home/Games.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHYW1lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Library/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/June/Desktop/src/Coding/Contracts/dgd_c\#/DGD/DGD/Views/Shared/Error.cshtml]
