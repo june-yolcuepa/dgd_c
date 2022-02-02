@@ -24,10 +24,11 @@ namespace DGD.Controllers
             return View();
         }
 
-        public IActionResult Games()
+        public IActionResult Library()
         {
             return View();
         }
+
 
         public IActionResult Account()
         {
