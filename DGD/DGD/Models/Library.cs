@@ -1,7 +1,10 @@
-﻿namespace DGD.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DGD.Models
 {
     public class Library
     {
+        [Key]
         public int Id { get; set; }
         public int GameId { get; set; }
 
@@ -26,20 +29,6 @@
         public string Genre { get; set; }
 
         public string Subgenre { get; set; }
-
-
-        //        Library
-        //8-Digit SKU
-        //SKU Genre
-        //SKU Publisher
-        //SKU Serires
-        //SKU Edition
-        //CHAR Genre
-        //CHAR Sub
-        //Library Quantity
-        //Quantity Available
-        //Quantity Rented
-        //Quantity Pending
        
 
 

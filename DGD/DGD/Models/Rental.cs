@@ -1,7 +1,12 @@
-﻿namespace DGD.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DGD.Models
 {
     public class Rental
     {
+        [Key]
+        public int Id { get; set; }
+
         public int LibraryId { get; set; }
 
 
