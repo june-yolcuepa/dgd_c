@@ -1,14 +1,23 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DGD.Data;
+using DGD.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DGD.Controllers
 {
     public class GameController : Controller
     {
+        private readonly ApplicationDbContext _db;
+
+        public GameController(ApplicationDbContext db) 
+        {
+            _db = db;
+        }
         // GET: GameController
         public ActionResult Index()
         {
-            return View();
+            IEnumerable<Boardgame> objList = _db.Boardgame;
+            return View(objList);
         }
 
         // GET: GameController/Details/5

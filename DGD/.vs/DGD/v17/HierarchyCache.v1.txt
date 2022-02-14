@@ -10,16 +10,6 @@ i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:>824
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\properties\
 ++wwwroot
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\
-++css
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\css\
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\dist\css\
-++js
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\js\
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\dist\js\
-++lib
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\
-++favicon.ico
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\favicon.ico
 ++Controllers
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\controllers\
 ++Accounting.cs
@@ -31,26 +21,31 @@ i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contra
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\controllers\homecontroller.cs
 ++LibraryController.cs
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\controllers\librarycontroller.cs
+++Data
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\data\
+++ApplicationDbContext.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\data\applicationdbcontext.cs
 ++Models
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\
+++Boardgame.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\boardgame.cs
+++ErrorViewModel.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\errorviewmodel.cs
+++Library.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\library.cs
+++Rental.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\rental.cs
 ++Views
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\
 ++Accounting
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\accounting\
 ++Games
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\games\
 ++Home
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\home\
 ++Library
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\library\
 ++Shared
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\
-++_Layout.cshtml
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\_layout.cshtml
-++_ValidationScriptsPartial.cshtml
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\_validationscriptspartial.cshtml
-++Error.cshtml
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\error.cshtml
 ++_ViewImports.cshtml
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\_viewimports.cshtml
 ++_ViewStart.cshtml
@@ -69,43 +64,33 @@ i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:frameworks
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:packages
 ++launchSettings.json
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\properties\launchsettings.json
-++site.css
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\css\site.css
-++stylesheet.css
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\css\stylesheet.css
-++site.js
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\js\site.js
-++bootstrap
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\
-++jquery
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\jquery\
-++jquery-validation
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\jquery-validation-unobtrusive\
-++Boardgame.cs
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\boardgame.cs
-++ErrorViewModel.cs
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\errorviewmodel.cs
-++Library.cs
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\library.cs
-++Rental.cs
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\rental.cs
+++css
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\css\
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\js\
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\
+++favicon.ico
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\favicon.ico
 ++PerCategory.cshtml
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\games\percategory.cshtml
 ++PerGame.cshtml
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\games\pergame.cshtml
 ++About.cshtml
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\home\about.cshtml
 ++Account.cshtml
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\home\account.cshtml
 ++Games.cshtml
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\home\games.cshtml
 ++Index.cshtml
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\home\index.cshtml
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\library\index.cshtml
-++_Layout.cshtml.css
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\_layout.cshtml.css
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\game\index.cshtml
+++_Layout.cshtml
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\error.cshtml
 ++appsettings.Development.json
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\appsettings.development.json
 ++MessagePackAnalyzer
@@ -130,6 +115,8 @@ i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\.nuget\packages\microsoft
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
@@ -140,8 +127,28 @@ i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\program files\dotnet\packs\microsoft
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\microsoft.netcore.app
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0)
-i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:>1503
+++Microsoft.EntityFrameworkCore (6.0.1)
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:>852
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:>854
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.1)
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:>855
+++site.css
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\css\site.css
+++stylesheet.css
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\css\stylesheet.css
+++site.js
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\js\site.js
+++bootstrap
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\
+++jquery
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\jquery\
+++jquery-validation
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml.css
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\shared\_layout.cshtml.css
 ++dist
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\dist\
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\jquery\dist\
@@ -259,6 +266,26 @@ i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contra
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 ++bootstrap.esm.min.js.map
 i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-++Microsoft.Owin.Security.OAuth (4.2.0)
-++Microsoft.Owin.Host.SystemWeb (4.2.0)
-++Privacy.cshtml
+++Program - Copy.cs
+++Startup.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\startup.cs
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:>924
+++Migrations
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\migrations\
+++20220202020205_add games.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\migrations\applicationdbcontextmodelsnapshot.cs
+++20220202020205_add games.Designer.cs
+++20220202020248_addGamestoDB.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\migrations\20220202020248_addgamestodb.cs
+++20220202020248_addGamestoDB.Designer.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\migrations\20220202020248_addgamestodb.designer.cs
+++User.cs
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\models\user.cs
+++View.cshtml
+++View - Copy.cshtml
+++Library.cshtml
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\home\library.cshtml
+++Game
+i:{23b59b37-43e8-44ef-9d1c-8983270bbffe}:c:\users\june\desktop\src\coding\contracts\dgd_c#\dgd\dgd\views\game\

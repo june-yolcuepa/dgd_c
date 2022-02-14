@@ -8,30 +8,30 @@ namespace DGD.Models
         [Key]
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public string? Title { get; set; }
 
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
-        public string Designer { get; set; }
+        public string? Designer { get; set; }
 
-        public string Illustrator { get; set; }
+        public string? Illustrator { get; set; }
 
-        public int Year { get; set; }
+        public int? Year { get; set; }
 
-        public int PlayerMin { get; set; }
-        public int PlayerMax { get; set; }
+        public int? MinPlayer { get; set; }
+        public int? MaxPlayer { get; set; }
 
-        public string Notes { get; set; }
+        public string? Notes { get; set; }
 
-        public string Genre { get; set; }
+        public string? Genre { get; set; }
 
-        public string Subgenre { get; set; }
+        public string? Subgenre { get; set; }
 
-        public string Collection { get; set; }
+        public string? Collection { get; set; }
 
-        public string EstDuration { get; set; }
+        public string? Duration { get; set; }
 
-        public string GeekLink { get; set; }
+        public string? GeekURL { get; set; }
 
         // Designer text / short
         // Illustrator     text / short

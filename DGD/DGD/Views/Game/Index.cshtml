@@ -1,7 +1,51 @@
-﻿
-@{
-    ViewData["Title"] = "View";
-}
+﻿@model IEnumerable<DGD.Models.Boardgame>
 
-<h1>Index - Board Games</h1>
 
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-6">
+                <h2 class="text-primary"> Board Games </h2>
+            </div>
+             <div class="col-6">
+
+             </div>
+
+        </div>
+        <br/>
+
+     @if(Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var boardgame in Model)
+                {
+                <tr>
+                    <td width="30%"></td>
+                    <td width="30%">@boardgame.Title</td>
+                    <td width="30%">@boardgame.Description</td>
+                </tr>
+                }
+            </tbody>
+
+        </table>
+    }
+    else
+    {
+        <p>No board games created yet</p>
+    }
+
+
+    </div>
