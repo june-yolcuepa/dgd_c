@@ -16,3 +16,14 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* navbar */
+.navbar-default {
+    background-color: #37718E;
+}
+
+.navbar-brand {
+    font-family: 'Hahmlet', serif;
+    color: #F5F9E9;
+}
+

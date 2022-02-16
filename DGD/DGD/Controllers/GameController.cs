@@ -32,6 +32,7 @@ namespace DGD.Controllers
             return View();
         }
 
+
         // POST: GameController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]

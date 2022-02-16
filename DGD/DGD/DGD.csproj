@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Views\Accounting\" />
+    <Folder Include="Views\Article\" />
+    <Folder Include="Views\Publisher\" />
   </ItemGroup>
 
   <ItemGroup>
